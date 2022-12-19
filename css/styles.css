@@ -8,13 +8,11 @@
     --bg-footer:#2F303A;
     --color-contact:rgba(255, 255, 255, 0.6);
 }
-
-/* body {
-    font-family:Roboto;
+body {
+    font-family:Roboto,sans-serif;
     font-weight: bold;
-    font-size: 16px;
-    line-height:36px;
-   } */
+    color:var(--body-color);
+   } 
 a {
     font-style:normal;
     text-decoration:none;
@@ -34,21 +32,50 @@ a {
 ul {
     list-style: none;
 }
-.list a{
-    color:#FFFFFF;
+.button-main {
+    color:var(--primary-white-color);
+    cursor:pointer;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.list {
+    color:var(--primary-white-color);
+    cursor:pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
 }
 
 .logo {
+    font-size: 26px;
+    line-height: 1.19;
     color:var(--body-color);
+    font-family: Raleway;
+
+}
+.logo-blue {
+    color:var(--accent-color);
+    /* font-size: 26px;
+    line-height: 1.19;
+    font-family: Raleway; */
+    
 }
         /* header */
-/* .site-nav a {
-    color:var(--accent-color);
-} */
+ .site-nav a {
+    color:var(--body-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+/*
 .site-nav a:hover,
 .site-nav a:focus {
     text-decoration: underline;
-}
+} */
 
         /* footer */
 .footer {
